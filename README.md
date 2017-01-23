@@ -5,8 +5,6 @@ This bundle provides a simple integration of the [Simple HTML DOM Parser][1] int
 Simple HTML DOM Parser is a HTML DOM parser written in PHP5+ that let you manipulate HTML, 
 find tags on an HTML page with selectors just like jQuery and extract contents from HTML.
 
-[![Build Status](https://travis-ci.org/erivello/SimpleHtmlDomBundle.png)](https://travis-ci.org/erivello/SimpleHtmlDomBundle)
-
 Installation
 ------------
 
@@ -15,7 +13,7 @@ Installation is very easy, it makes use of [Composer][2].
 Add SimpleHtmlDomBundle to your composer.json
 
     "require": {
-        "erivello/simple-html-dom-bundle": "dev-master"
+        "martyrer/simple-html-dom-bundle": "dev-master"
     }
 
 Register the bundle in `app/AppKernel.php`:
@@ -29,7 +27,7 @@ public function registerBundles()
     $bundles = array(
         // ...
 
-        new Erivello\SimpleHtmlDomBundle\ErivelloSimpleHtmlDomBundle(),
+        new Martyrer\SimpleHtmlDomBundle\ErivelloSimpleHtmlDomBundle(),
     );
 }
 ```
