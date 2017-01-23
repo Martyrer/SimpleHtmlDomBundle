@@ -12,7 +12,7 @@
     bootstrap                   = "Tests/bootstrap.php">
 
     <testsuites>
-        <testsuite name="ErivelloSimpleHtmlDomBundle Test Suite">
+        <testsuite name="MartyrerSimpleHtmlDomBundle Test Suite">
             <directory>Tests</directory>
         </testsuite>
     </testsuites>
