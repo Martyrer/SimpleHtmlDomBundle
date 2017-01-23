@@ -1,14 +1,14 @@
 {
-    "name": "erivello/simple-html-dom-bundle",
+    "name": "martyrer/simple-html-dom-bundle",
     "description": "Bundle around Simple HTML DOM library",
     "type": "symfony-bundle",
     "keywords": ["html", "dom", "php"],
-    "homepage": "https://github.com/erivello/SimpleHtmlDomBundle",
+    "homepage": "https://github.com/Martyrer/SimpleHtmlDomBundle",
     "license": "MIT",
     "authors": [
         {
-            "name": "Edoardo Rivello",
-            "email": "edoardo.rivello@gmail.com"
+            "name": "Dmitry Shumilin",
+            "email": "zveryga.ru@gmail.com"
         }
     ],
     "require": {
@@ -20,9 +20,9 @@
         "symfony/browser-kit": "3.*"
     },
     "minimum-stability": "dev",
-    "target-dir": "Erivello/SimpleHtmlDomBundle",
+    "target-dir": "Martyrer/SimpleHtmlDomBundle",
     "autoload": {
-        "psr-0": { "Erivello\\SimpleHtmlDomBundle": "" },
+        "psr-0": { "Martyrer\\SimpleHtmlDomBundle": "" },
         "classmap": [ "lib" ]
     }
 }
