@@ -1,6 +1,6 @@
 <?php
 
-namespace Erivello\SimpleHtmlDomBundle\DependencyInjection;
+namespace Martyrer\SimpleHtmlDomBundle\DependencyInjection;
 
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
@@ -8,11 +8,11 @@ use Symfony\Component\DependencyInjection\Loader\XmlFileLoader;
 use Symfony\Component\HttpKernel\DependencyInjection\Extension;
 
 /**
- * ErivelloSimpleHtmlDomExtension.
+ * MartyrerSimpleHtmlDomExtension.
  *
  * @author Edoardo Rivello <edoardo.rivello@gmail.com>
  */
-class ErivelloSimpleHtmlDomExtension extends Extension
+class MartyrerSimpleHtmlDomExtension extends Extension
 {
     public function load(array $configs, ContainerBuilder $container)
     {
