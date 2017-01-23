@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Erivello\SimpleHtmlDomBundle\Tests;
+namespace Martyrer\SimpleHtmlDomBundle\Tests;
 
-use Erivello\SimpleHtmlDomBundle\Tests\WebTestCase;
+use Martyrer\SimpleHtmlDomBundle\Tests\WebTestCase;
 
 class SimpleHtmlDomBundleTest extends WebTestCase
 {
