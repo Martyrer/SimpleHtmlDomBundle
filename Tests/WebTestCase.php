@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Erivello\SimpleHtmlDomBundle\Tests;
+namespace Martyrer\SimpleHtmlDomBundle\Tests;
 
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase as BaseWebTestCase;
 
@@ -29,7 +29,7 @@ abstract class WebTestCase extends BaseWebTestCase
     {
         require_once __DIR__.'/Fixtures/app/AppKernel.php';
 
-        return 'Erivello\SimpleHtmlDomBundle\Tests\Functional\AppKernel';
+        return 'Martyrer\SimpleHtmlDomBundle\Tests\Functional\AppKernel';
     }    
 
     protected static function createKernel(array $options = array())
