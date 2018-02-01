@@ -9,7 +9,7 @@
     </parameters>
 
     <services>
-        <service id="simple_html_dom" class="%simple_html_dom.class%">
+        <service id="simple_html_dom" class="%simple_html_dom.class%" public="true">
         </service>
     </services>
 </container>
