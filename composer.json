@@ -26,7 +26,6 @@
     "require-dev": {
         "phpunit/phpunit": "6.5.*"
     },
-    "minimum-stability": "dev",
     "target-dir": "Martyrer/SimpleHtmlDomBundle",
     "autoload": {
         "psr-0": { "Martyrer\\SimpleHtmlDomBundle": "" },
