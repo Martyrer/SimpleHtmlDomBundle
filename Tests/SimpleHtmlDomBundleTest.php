@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the ErivelloSimpleHtmlDomBundle.
+ * This file is part of the MartyrerSimpleHtmlDomBundle.
  *
  * Edoardo Rivello <edoardo.rivello@gmail.com>
  *

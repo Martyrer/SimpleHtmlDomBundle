@@ -27,7 +27,7 @@ public function registerBundles()
     $bundles = array(
         // ...
 
-        new Martyrer\SimpleHtmlDomBundle\ErivelloSimpleHtmlDomBundle(),
+        new Martyrer\SimpleHtmlDomBundle\MartyrerSimpleHtmlDomBundle(),
     );
 }
 ```
