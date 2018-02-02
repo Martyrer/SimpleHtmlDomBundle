@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the ErivelloSimpleHtmlDomBundle.
+ * This file is part of the MartyrerSimpleHtmlDomBundle.
  *
  * Edoardo Rivello <edoardo.rivello@gmail.com>
  *
@@ -11,16 +11,13 @@
 
 namespace Martyrer\SimpleHtmlDomBundle\Tests;
 
-use Martyrer\SimpleHtmlDomBundle\Tests\WebTestCase;
+use Symfony\Bundle\FrameworkBundle\Test\KernelTestCase;
 
-class SimpleHtmlDomBundleTest extends WebTestCase
+class MartyrerSimpleHtmlDomBundleTest extends KernelTestCase
 {
     public function testRegister()
     {
-        $client = static::createClient();
-        $container = $client->getContainer();
-        
-        $parser = $container->get('simple_html_dom');   
+        $parser = static::bootKernel()->getContainer()->get('simple_html_dom');
         
         $this->assertTrue($parser instanceof \simple_html_dom);
     }

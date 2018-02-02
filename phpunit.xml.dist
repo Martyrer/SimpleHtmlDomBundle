@@ -27,4 +27,7 @@
             </exclude>
         </whitelist>
     </filter>
+    <php>
+        <env name="KERNEL_CLASS" value="Martyrer\SimpleHtmlDomBundle\Tests\Fixtures\app\AppKernel" />
+    </php>
 </phpunit>
