@@ -1,7 +1,7 @@
 SimpleHtmlDomBundle
 ===================
 
-This bundle provides a simple integration of the [Simple HTML DOM Parser][1] into Symfony2.
+This bundle provides a simple integration of the [Simple HTML DOM Parser][1] into Symfony 3.4/4.0.
 Simple HTML DOM Parser is a HTML DOM parser written in PHP5+ that let you manipulate HTML, 
 find tags on an HTML page with selectors just like jQuery and extract contents from HTML.
 
@@ -11,25 +11,8 @@ Installation
 Installation is very easy, it makes use of [Composer][2].
 
 Add SimpleHtmlDomBundle to your composer.json
-
-    "require": {
-        "martyrer/simple-html-dom-bundle": "dev-master"
-    }
-
-Register the bundle in `app/AppKernel.php`:
-
-``` php
-<?php
-// app/AppKernel.php
-
-public function registerBundles()
-{
-    $bundles = array(
-        // ...
-
-        new Martyrer\SimpleHtmlDomBundle\SimpleHtmlDomBundle(),
-    );
-}
+```
+    composer require martyrer/simple-html-dom-bundle
 ```
 
 Usage

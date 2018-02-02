@@ -34,6 +34,6 @@ class AppKernel extends Kernel
 
     public function registerContainerConfiguration(LoaderInterface $loader)
     {
-        $loader->load(__DIR__ . '/config/default.yml');
+        $loader->load(__DIR__ . '/config/test.xml');
     }
 }
