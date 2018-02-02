@@ -13,4 +13,5 @@ framework:
 services:
     simple_html_dom:
         class: simple_html_dom
+        public: true
 
