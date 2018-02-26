@@ -8,12 +8,16 @@ use Symfony\Component\DependencyInjection\Loader\XmlFileLoader;
 use Symfony\Component\HttpKernel\DependencyInjection\Extension;
 
 /**
- * MartyrerSimpleHtmlDomExtension.
- *
- * @author Edoardo Rivello <edoardo.rivello@gmail.com>
+ * Class MartyrerSimpleHtmlDomExtension
  */
 class MartyrerSimpleHtmlDomExtension extends Extension
 {
+    /**
+     * @param array            $configs
+     * @param ContainerBuilder $container
+     *
+     * @throws \Exception
+     */
     public function load(array $configs, ContainerBuilder $container)
     {
         $loader = new XmlFileLoader($container, new FileLocator(__DIR__ . '/../Resources/config'));
